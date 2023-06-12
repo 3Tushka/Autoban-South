@@ -1,0 +1,91 @@
+.footer {
+    border-top: 17px solid #25b0dd;
+    width: 100%;
+    text-align: center;
+    background-color: #224289;
+    overflow: hidden;
+}
+
+.footer-wrapp {
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1220px;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.footer-top {
+    display: flex;
+    padding: 40px 0;
+
+    color: #dbdbdb;
+    font-family: 'Exo 2', sans-serif;
+
+    .footer-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 25%;
+
+        .footer-logo {
+            margin-bottom: 20px;
+        }
+
+        .footer-number {
+            margin: 10px 0;
+            font-weight: 500;
+            font-size: 1.2rem;
+        }
+
+        .footer-mail {
+            margin: 5px 0 7px;
+
+            a {
+                color: #25b0dd;
+            }
+        }
+
+        .footer-info-address {
+            max-width: 100px;
+            line-height: 1.3rem;
+        }
+    }
+
+    .footer-col {
+        display: flex;
+        flex-direction: column;
+
+        width: 25%;
+
+        .footer-col-head {
+
+            margin: 10px 0 20px;
+
+            a {
+                text-decoration: none;
+                color: #dbdbdb;
+                font-family: 'Exo 2', sans-serif;
+                font-size: 1.4rem;
+                font-weight: 500;
+            }
+        }
+
+        .footer-links {
+            width: 100%;
+
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+
+            a {
+                text-decoration: none;
+                color: #dbdbdb;
+                font-family: 'Exo 2', sans-serif;
+                font-size: 0.9rem;
+                font-weight: 300;
+            }
+        }
+    }
+}
